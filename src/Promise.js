@@ -1,3 +1,1 @@
-module.exports = (typeof window === 'undefined' || typeof window.Promise === 'undefined') ?
-    require('promise') :
-    window.Promise;
+module.exports = Promise || (window && window.Promise) || require("promise")
