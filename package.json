@@ -1,6 +1,6 @@
 {
   "name": "timesync-fork-wolf",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Time synchronization between peers",
   "author": "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
   "main": "./lib/timesync.js",
@@ -27,7 +27,6 @@
     "body-parser": "1.18.2",
     "browserify": "16.1.0",
     "express": "4.16.2",
-    "promise": "8.0.1",
     "socket.io": "2.0.4",
     "uglify-js": "3.3.10",
     "watch": "1.0.2"
